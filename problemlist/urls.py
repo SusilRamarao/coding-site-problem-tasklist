@@ -21,6 +21,6 @@ from django.conf import settings
 
 from django.conf.urls.static import static
 
-#urlpatterns = [
- #   path('problemtasklist/hello/', hello)
-#] #+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+urlpatterns = [
+    path('problemlist/hello/', hello)
+] #+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
